@@ -41,6 +41,8 @@ describe('buzzer', function() {
     });
   });
 
+  //need test if number not multiple of 3 or 5
+
   it('if args are not numbers', function() {
     const badInputs = [
       ['num'],
